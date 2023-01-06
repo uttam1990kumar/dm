@@ -1291,8 +1291,6 @@ def get_total_number_request_and_view(request):
                 "image":image.image.url,
                 "count":total_request_receive
             }
-        
-        
         response[image.id]={
                 "id":image.id,
                 "name":image.name,
